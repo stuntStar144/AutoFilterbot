@@ -11,8 +11,8 @@ def is_enabled(value, default):
 
 
 # PyroClient Setup 
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
+API_ID = int(environ['API_ID' 27183261])
+API_HASH = environ['API_HASH' f32586203fd2d814ea949ad984839c61]
 BOT_TOKEN = environ['BOT_TOKEN']
 
 # Bot settings
@@ -22,7 +22,7 @@ UPTIME = time.time()
 
 # Admins, Channels & Users
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7206602351').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
@@ -32,8 +32,8 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URL = environ.get('DATABASE_URL', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://starstunt14:kce9es74owxmchsM@cluster0.myuv8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "starstunt14")
 FILE_DB_URL = environ.get("FILE_DB_URL", DATABASE_URL)
 FILE_DB_NAME = environ.get("FILE_DB_NAME", DATABASE_NAME)
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
