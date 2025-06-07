@@ -1,7 +1,7 @@
 {
     "name": "PROFESSOR-BOT",
     "description": "The Telegram Autofilter Bot",
-    "logo": "https://graph.org/file/b7e8484f6395a180b6380.jpg",
+    "logo": "https://te.legra.ph/file/94bc067909902a02eaf20.jpg",
     "keywords": ["Telegram", "auto-filter", "MrMKN"],
     "repository": "https://github.com/Darkksoul/AutoFilterbot",
     "env": {
@@ -39,7 +39,7 @@
             "required": false
         },
         "PICS": {
-            "description": "https://te.legra.ph/file/142cfa1f05626acf24241.jpg",
+            "description": "https://te.legra.ph/file/94bc067909902a02eaf20.jpg",
             "required": true
         },
         "LOG_CHANNEL": {
@@ -120,7 +120,7 @@
             "required": false
         },
         "WELCOM_PIC": {
-            "description": "https://te.legra.ph/file/142cfa1f05626acf24241.jpg",
+            "description": "https://te.legra.ph/file/94bc067909902a02eaf20.jpg",
             "required": true
         },
         "WELCOM_TEXT": {
@@ -163,8 +163,3 @@
             {"url": "heroku/python"}
         ]      
 }
-
-
-
-
-
